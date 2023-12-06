@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .display input {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .keys button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .number {
+    background-color: #65a4de;
+    color: #fff;
+  }
+  
+  .operator,
+  .calculate,
+  .clear {
+    background-color: #ff8c00;
+    color: #fff;
+  }
+  
+  .decimal {
+    background-color: #ffdc00;
+    color: #333;
+  }
+  
+  .calculate {
+    height: 110px;
+    font-size: 24px;
+  }
+  /* Additional CSS styles for the calculator */
+
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #444;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.display input {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.keys button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.number {
+  background-color: #555;
+}
+
+.operator, .calculate, .clear {
+  background-color: #888;
+}
+
+.decimal {
+  background-color: #666;
+}
+
+.calculate {
+  height: 110px;
+  font-size: 24px;
+}
